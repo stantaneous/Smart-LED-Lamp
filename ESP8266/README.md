@@ -6,14 +6,16 @@ Warning: The ESP8266 tx and rx pins are rated as 3.3v and arduino uses 5v. Ardui
 And also Arduino doesn't provide steady regulated 3.3v for power supply but still it can be used for powering ESP8266.
 
 ESP8266-01 Pin diagram is also attached.
+
 Now, for the Connection Part :
-Arduino_RESET <----------------------> Arduino_GND               (To use arduino as a USB to Serial).
-ESP_GPIO_0   <-----------------------> Arduino_GND           (To use ESP in flash mode).
-ESP_TXd      <-----------------------> Arduino_TX            (Yes, it sounds crazy. tx should be connected to rx but trust me).
-ESP_RXd      <-----------------------> Arduino_RX
-ESP_CH_PD    <-----------------------> Arduino_3.3v          (To enable Esp chip).
-ESP_Vcc      <-----------------------> Arduino_3.3v          (Esp power Supply).
-ESP_GND      <-----------------------> Arduino_GND           (Isn't it obvious).
+
+Arduino_RESET <------> Arduino_GND        (To use arduino as a USB to Serial).
+ESP_GPIO_0   <-------> Arduino_GND        (To use ESP in flash mode).
+ESP_TXd      <-------> Arduino_TX         (Yes, it sounds crazy. tx should be connected to rx but trust me).
+ESP_RXd      <-------> Arduino_RX
+ESP_CH_PD    <-------> Arduino_3.3v       (To enable Esp chip).
+ESP_Vcc      <-------> Arduino_3.3v       (Esp power Supply).
+ESP_GND      <-------> Arduino_GND        (Isn't it obvious).
 
 Connect the Arduino to Computer.
 Now lets flash the ESP AT firmware:
