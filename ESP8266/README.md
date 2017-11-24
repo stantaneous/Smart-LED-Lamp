@@ -26,10 +26,10 @@ Connect the Arduino to Computer.
 Now lets flash the ESP AT firmware:
 1. Open "ESP_DOWNLOAD_TOOL_V2.4.exe".
 2. Choose the firmware path and address as: 
-   a. path-> "\esp_iot_sdk_v1.5.0\bin\blank.bin" ADDR-> "0x7e000".
-   b. path-> "\esp_iot_sdk_v1.5.0\bin\at\noboot\eagle.flash.bin" ADDR-> "0x00000".
-   c. path-> "\esp_iot_sdk_v1.5.0\bin\blank.bin" ADDR-> "0xfe000".
-   d. path-> "\esp_iot_sdk_v1.5.0\bin\at\noboot\eagle.irom0text.bin" ADDR-> "0x40000".
+   1. path-> "\esp_iot_sdk_v1.5.0\bin\blank.bin" ADDR-> "0x7e000".
+   2. path-> "\esp_iot_sdk_v1.5.0\bin\at\noboot\eagle.flash.bin" ADDR-> "0x00000".
+   3. path-> "\esp_iot_sdk_v1.5.0\bin\blank.bin" ADDR-> "0xfe000".
+   4. path-> "\esp_iot_sdk_v1.5.0\bin\at\noboot\eagle.irom0text.bin" ADDR-> "0x40000".
 3. CrystalFreq: 26M
 4. Flash Size: 8Mbit
 5. SPI Speed: 40MHz
