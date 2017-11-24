@@ -22,8 +22,8 @@ Knowledge:
 2. Arduino Ide and little bit knowledge of C/C++.
 
 To get started follow these steps:
-1. Open ESP8266 folder and follow the README.md in this folder to flash firmware to ESP.
-2. Open Arduino folder and follow the README.md in this folder to upload program to arduino.
-3. Open Android folder and follow the README.md in this folder to install android application to the android smartphone.
+1. Open ESP8266 folder and follow the README.md on that folder to flash firmware to ESP.
+2. Open Arduino folder and follow the README.md on that folder to upload program to arduino.
+3. Open Android folder and follow the README.md on that folder to install android application to the android smartphone.
 
 There you go, Happy Programming! Good Luck with Arduino and Esp.
