@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:text="@string/red"
+            android:layout_gravity="center_vertical"/>
+
+        <SeekBar
+            android:id="@+id/redBar"
+            android:layout_width="0dp"
+            android:progressTint="@color/red"
+            android:thumbTint="@color/red"
+            android:layout_weight="1"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:max="255" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:text="@string/green"
+            android:layout_gravity="center_vertical"/>
+        <SeekBar
+            android:id="@+id/greenBar"
+            android:layout_width="0dp"
+            android:progressTint="@color/green"
+            android:thumbTint="@color/green"
+            android:layout_weight="1"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:max="255" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:text="@string/blue"
+            android:layout_gravity="center_vertical"/>
+
+        <SeekBar
+            android:id="@+id/blueBar"
+            android:layout_width="0dp"
+            android:progressTint="@color/blue"
+            android:thumbTint="@color/blue"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:max="255" />
+    </LinearLayout>
+
+
+</LinearLayout>
